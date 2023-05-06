@@ -596,15 +596,15 @@ def cal_scores(method='FLANN', flag=1):
     plt.grid(True)
     plt.show()
 
-#print(scores_list)
+print(scores_list)
         
-#get_imgs_roi('./data/600/2')
-#bin_features_extract('./data/roi_320240')
-#bin_match('./data/roi_600_2_all_320240/600-3-7-1.bmp', './data/roi_600_2_all_320240/600-3-8-1.bmp')
-#LBP_feature_extrector('./data/roi_320240')
-#SIFT_detector('./data/roi_320240/')
-#SIFT_match('./data/roi_320240/600-3-7-1.bmp', './data/roi_320240/600-3-8-1.bmp')
-#2号样本计算分布直方图
-#cal_scores('FLANN', 2)
-#4号样本计算直方图
-#cal_scores('BIN', 4)
+get_imgs_roi('./data/600/2')
+bin_features_extract('./data/roi_320240')
+bin_match('./data/roi_600_2_all_320240/600-3-7-1.bmp', './data/roi_600_2_all_320240/600-3-8-1.bmp')
+LBP_feature_extrector('./data/roi_320240')
+SIFT_detector('./data/roi_320240/')
+SIFT_match('./data/roi_320240/600-3-7-1.bmp', './data/roi_320240/600-3-8-1.bmp')
+2号样本计算分布直方图
+cal_scores('FLANN', 2)
+4号样本计算直方图
+cal_scores('BIN', 4)
